@@ -1,8 +1,5 @@
 # Smart Recipe Explorer – MERN + GenAI Integration
 
-Role: MERN Stack Intern  
-Assignment: Smart Recipe Explorer with AI Assistance
-
 This project is a MERN stack application that manages a list of recipes with search and filtering capabilities, and integrates a **free Generative AI API** to enhance user interaction. The AI can:
 
 1. Suggest a recipe based on given ingredients  
@@ -307,28 +304,7 @@ Future enhancements could include:
 
 ---
 
-## 11. Submission Checklist
-
-* [x] MERN stack implemented
-* [x] Recipe search & filter
-* [x] Free GenAI API integrated
-* [x] AI suggestion + summarization working
-* [x] MongoDB with seed data
-* [x] Modular folder structure
-* [x] Minimal test coverage
-* [x] `.env.example` included
-* [x] `.env` is excluded from Git
-* [x] README includes:
-
-  * How to run backend
-  * How to run frontend
-  * AI setup
-  * Thought process
-  * API instructions
-
----
-
-## 12. Conclusion
+## 11. Conclusion
 
 This project demonstrates complete end-to-end MERN integration, AI-powered features, proper backend architecture, frontend usability, and clean documentation. It aligns fully with the assignment requirements and showcases readiness for real-world MERN development tasks.
 
