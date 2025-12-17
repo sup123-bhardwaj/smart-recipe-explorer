@@ -87,7 +87,7 @@ Create `backend/.env`:
 PORT=5001
 MONGO_URI=mongodb://localhost:27017/smart_recipe_explorer
 HF_API_KEY=your_huggingface_api_key_here
-HF_MODEL_ID=gpt2
+HF_MODEL_ID=google/flan-t5-base
 ```
 
 > Important: DO NOT commit `.env`.
@@ -166,13 +166,6 @@ The backend builds a prompt and sends it to Hugging Face:
 ```
 https://api-inference.huggingface.co/models/gpt2
 ```
-
-### Step 3: Why `gpt2`?
-
-* Free
-* Stable
-* Works with inference without waiting
-* Good for text-generation and instruction simplification
 
 ---
 
